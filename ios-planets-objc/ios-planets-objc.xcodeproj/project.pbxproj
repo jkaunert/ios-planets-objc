@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABA6A068222480AD009FFDA7 /* JKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA6A067222480AD009FFDA7 /* JKAppDelegate.m */; };
+		ABA6A06E222480AD009FFDA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA6A06C222480AD009FFDA7 /* Main.storyboard */; };
+		ABA6A070222480AD009FFDA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA6A06F222480AD009FFDA7 /* Assets.xcassets */; };
+		ABA6A073222480AD009FFDA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA6A071222480AD009FFDA7 /* LaunchScreen.storyboard */; };
+		ABA6A076222480AD009FFDA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA6A075222480AD009FFDA7 /* main.m */; };
+		ABA6A08222248849009FFDA7 /* JKPlanetsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA6A08122248849009FFDA7 /* JKPlanetsCollectionViewController.m */; };
+		ABA6A087222488E9009FFDA7 /* JKSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA6A086222488E9009FFDA7 /* JKSettingsViewController.m */; };
+		ABA6A08B2224890F009FFDA7 /* JKPlanetDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA6A08A2224890F009FFDA7 /* JKPlanetDetailViewController.m */; };
+		ABA6A08F22248978009FFDA7 /* JKPlanetController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA6A08E22248978009FFDA7 /* JKPlanetController.m */; };
+		ABA6A0932224899F009FFDA7 /* JKPlanet.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA6A0922224899F009FFDA7 /* JKPlanet.m */; };
+		ABA6A0972224B3C5009FFDA7 /* JKPlanetCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA6A0962224B3C5009FFDA7 /* JKPlanetCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ABA6A063222480AD009FFDA7 /* ios-planets-objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-planets-objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA6A066222480AD009FFDA7 /* JKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKAppDelegate.h; sourceTree = "<group>"; };
+		ABA6A067222480AD009FFDA7 /* JKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKAppDelegate.m; sourceTree = "<group>"; };
+		ABA6A06D222480AD009FFDA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABA6A06F222480AD009FFDA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABA6A072222480AD009FFDA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABA6A074222480AD009FFDA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA6A075222480AD009FFDA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABA6A08022248849009FFDA7 /* JKPlanetsCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKPlanetsCollectionViewController.h; sourceTree = "<group>"; };
+		ABA6A08122248849009FFDA7 /* JKPlanetsCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKPlanetsCollectionViewController.m; sourceTree = "<group>"; };
+		ABA6A085222488E9009FFDA7 /* JKSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKSettingsViewController.h; sourceTree = "<group>"; };
+		ABA6A086222488E9009FFDA7 /* JKSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKSettingsViewController.m; sourceTree = "<group>"; };
+		ABA6A0892224890F009FFDA7 /* JKPlanetDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKPlanetDetailViewController.h; sourceTree = "<group>"; };
+		ABA6A08A2224890F009FFDA7 /* JKPlanetDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKPlanetDetailViewController.m; sourceTree = "<group>"; };
+		ABA6A08D22248978009FFDA7 /* JKPlanetController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKPlanetController.h; sourceTree = "<group>"; };
+		ABA6A08E22248978009FFDA7 /* JKPlanetController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKPlanetController.m; sourceTree = "<group>"; };
+		ABA6A0912224899F009FFDA7 /* JKPlanet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKPlanet.h; sourceTree = "<group>"; };
+		ABA6A0922224899F009FFDA7 /* JKPlanet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKPlanet.m; sourceTree = "<group>"; };
+		ABA6A0952224B3C5009FFDA7 /* JKPlanetCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKPlanetCollectionViewCell.h; sourceTree = "<group>"; };
+		ABA6A0962224B3C5009FFDA7 /* JKPlanetCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKPlanetCollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABA6A060222480AD009FFDA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABA6A05A222480AD009FFDA7 = {
+			isa = PBXGroup;
+			children = (
+				ABA6A065222480AD009FFDA7 /* ios-planets-objc */,
+				ABA6A064222480AD009FFDA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABA6A064222480AD009FFDA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABA6A063222480AD009FFDA7 /* ios-planets-objc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABA6A065222480AD009FFDA7 /* ios-planets-objc */ = {
+			isa = PBXGroup;
+			children = (
+				ABA6A075222480AD009FFDA7 /* main.m */,
+				ABA6A066222480AD009FFDA7 /* JKAppDelegate.h */,
+				ABA6A067222480AD009FFDA7 /* JKAppDelegate.m */,
+				ABA6A094222489A2009FFDA7 /* Model */,
+				ABA6A0902224897D009FFDA7 /* Model Controller */,
+				ABA6A0992224B3E9009FFDA7 /* Views */,
+				ABA6A08322248878009FFDA7 /* View Controllers */,
+				ABA6A06C222480AD009FFDA7 /* Main.storyboard */,
+				ABA6A06F222480AD009FFDA7 /* Assets.xcassets */,
+				ABA6A071222480AD009FFDA7 /* LaunchScreen.storyboard */,
+				ABA6A074222480AD009FFDA7 /* Info.plist */,
+			);
+			path = "ios-planets-objc";
+			sourceTree = "<group>";
+		};
+		ABA6A08322248878009FFDA7 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ABA6A08C22248924009FFDA7 /* JKPlanetDetailViewController */,
+				ABA6A084222488BB009FFDA7 /* JKPlanetsCollectionViewController */,
+				ABA6A088222488ED009FFDA7 /* JKSettingsViewController */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		ABA6A084222488BB009FFDA7 /* JKPlanetsCollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				ABA6A08022248849009FFDA7 /* JKPlanetsCollectionViewController.h */,
+				ABA6A08122248849009FFDA7 /* JKPlanetsCollectionViewController.m */,
+			);
+			path = JKPlanetsCollectionViewController;
+			sourceTree = "<group>";
+		};
+		ABA6A088222488ED009FFDA7 /* JKSettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				ABA6A085222488E9009FFDA7 /* JKSettingsViewController.h */,
+				ABA6A086222488E9009FFDA7 /* JKSettingsViewController.m */,
+			);
+			path = JKSettingsViewController;
+			sourceTree = "<group>";
+		};
+		ABA6A08C22248924009FFDA7 /* JKPlanetDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				ABA6A0892224890F009FFDA7 /* JKPlanetDetailViewController.h */,
+				ABA6A08A2224890F009FFDA7 /* JKPlanetDetailViewController.m */,
+			);
+			path = JKPlanetDetailViewController;
+			sourceTree = "<group>";
+		};
+		ABA6A0902224897D009FFDA7 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ABA6A08D22248978009FFDA7 /* JKPlanetController.h */,
+				ABA6A08E22248978009FFDA7 /* JKPlanetController.m */,
+			);
+			path = "Model Controller";
+			sourceTree = "<group>";
+		};
+		ABA6A094222489A2009FFDA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ABA6A0912224899F009FFDA7 /* JKPlanet.h */,
+				ABA6A0922224899F009FFDA7 /* JKPlanet.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ABA6A0982224B3CA009FFDA7 /* JKPlanetCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				ABA6A0952224B3C5009FFDA7 /* JKPlanetCollectionViewCell.h */,
+				ABA6A0962224B3C5009FFDA7 /* JKPlanetCollectionViewCell.m */,
+			);
+			path = JKPlanetCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		ABA6A0992224B3E9009FFDA7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ABA6A0982224B3CA009FFDA7 /* JKPlanetCollectionViewCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABA6A062222480AD009FFDA7 /* ios-planets-objc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA6A079222480AD009FFDA7 /* Build configuration list for PBXNativeTarget "ios-planets-objc" */;
+			buildPhases = (
+				ABA6A05F222480AD009FFDA7 /* Sources */,
+				ABA6A060222480AD009FFDA7 /* Frameworks */,
+				ABA6A061222480AD009FFDA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-planets-objc";
+			productName = "ios-planets-objc";
+			productReference = ABA6A063222480AD009FFDA7 /* ios-planets-objc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABA6A05B222480AD009FFDA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = jkaunert;
+				TargetAttributes = {
+					ABA6A062222480AD009FFDA7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = ABA6A05E222480AD009FFDA7 /* Build configuration list for PBXProject "ios-planets-objc" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABA6A05A222480AD009FFDA7;
+			productRefGroup = ABA6A064222480AD009FFDA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABA6A062222480AD009FFDA7 /* ios-planets-objc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABA6A061222480AD009FFDA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA6A073222480AD009FFDA7 /* LaunchScreen.storyboard in Resources */,
+				ABA6A070222480AD009FFDA7 /* Assets.xcassets in Resources */,
+				ABA6A06E222480AD009FFDA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABA6A05F222480AD009FFDA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA6A08F22248978009FFDA7 /* JKPlanetController.m in Sources */,
+				ABA6A0932224899F009FFDA7 /* JKPlanet.m in Sources */,
+				ABA6A076222480AD009FFDA7 /* main.m in Sources */,
+				ABA6A08222248849009FFDA7 /* JKPlanetsCollectionViewController.m in Sources */,
+				ABA6A08B2224890F009FFDA7 /* JKPlanetDetailViewController.m in Sources */,
+				ABA6A087222488E9009FFDA7 /* JKSettingsViewController.m in Sources */,
+				ABA6A068222480AD009FFDA7 /* JKAppDelegate.m in Sources */,
+				ABA6A0972224B3C5009FFDA7 /* JKPlanetCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ABA6A06C222480AD009FFDA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABA6A06D222480AD009FFDA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABA6A071222480AD009FFDA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABA6A072222480AD009FFDA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABA6A077222480AD009FFDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ABA6A078222480AD009FFDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABA6A07A222480AD009FFDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HSRQC9N69B;
+				INFOPLIST_FILE = "ios-planets-objc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jkaunert.ios-planets-objc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABA6A07B222480AD009FFDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HSRQC9N69B;
+				INFOPLIST_FILE = "ios-planets-objc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jkaunert.ios-planets-objc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABA6A05E222480AD009FFDA7 /* Build configuration list for PBXProject "ios-planets-objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA6A077222480AD009FFDA7 /* Debug */,
+				ABA6A078222480AD009FFDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA6A079222480AD009FFDA7 /* Build configuration list for PBXNativeTarget "ios-planets-objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA6A07A222480AD009FFDA7 /* Debug */,
+				ABA6A07B222480AD009FFDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABA6A05B222480AD009FFDA7 /* Project object */;
+}
