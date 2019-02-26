@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		ABA6A068222480AD009FFDA7 /* JKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA6A067222480AD009FFDA7 /* JKAppDelegate.m */; };
-		ABA6A06E222480AD009FFDA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA6A06C222480AD009FFDA7 /* Main.storyboard */; };
 		ABA6A070222480AD009FFDA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA6A06F222480AD009FFDA7 /* Assets.xcassets */; };
 		ABA6A073222480AD009FFDA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA6A071222480AD009FFDA7 /* LaunchScreen.storyboard */; };
 		ABA6A076222480AD009FFDA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA6A075222480AD009FFDA7 /* main.m */; };
@@ -18,13 +17,13 @@
 		ABA6A08F22248978009FFDA7 /* JKPlanetController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA6A08E22248978009FFDA7 /* JKPlanetController.m */; };
 		ABA6A0932224899F009FFDA7 /* JKPlanet.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA6A0922224899F009FFDA7 /* JKPlanet.m */; };
 		ABA6A0972224B3C5009FFDA7 /* JKPlanetCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA6A0962224B3C5009FFDA7 /* JKPlanetCollectionViewCell.m */; };
+		ABA6A09B22250F98009FFDA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA6A09A22250F98009FFDA7 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ABA6A063222480AD009FFDA7 /* ios-planets-objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-planets-objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA6A066222480AD009FFDA7 /* JKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKAppDelegate.h; sourceTree = "<group>"; };
 		ABA6A067222480AD009FFDA7 /* JKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKAppDelegate.m; sourceTree = "<group>"; };
-		ABA6A06D222480AD009FFDA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABA6A06F222480AD009FFDA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABA6A072222480AD009FFDA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABA6A074222480AD009FFDA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,6 +40,7 @@
 		ABA6A0922224899F009FFDA7 /* JKPlanet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKPlanet.m; sourceTree = "<group>"; };
 		ABA6A0952224B3C5009FFDA7 /* JKPlanetCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKPlanetCollectionViewCell.h; sourceTree = "<group>"; };
 		ABA6A0962224B3C5009FFDA7 /* JKPlanetCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKPlanetCollectionViewCell.m; sourceTree = "<group>"; };
+		ABA6A09A22250F98009FFDA7 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +80,8 @@
 				ABA6A0902224897D009FFDA7 /* Model Controller */,
 				ABA6A0992224B3E9009FFDA7 /* Views */,
 				ABA6A08322248878009FFDA7 /* View Controllers */,
-				ABA6A06C222480AD009FFDA7 /* Main.storyboard */,
 				ABA6A06F222480AD009FFDA7 /* Assets.xcassets */,
+				ABA6A09A22250F98009FFDA7 /* Main.storyboard */,
 				ABA6A071222480AD009FFDA7 /* LaunchScreen.storyboard */,
 				ABA6A074222480AD009FFDA7 /* Info.plist */,
 			);
@@ -217,9 +217,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABA6A09B22250F98009FFDA7 /* Main.storyboard in Resources */,
 				ABA6A073222480AD009FFDA7 /* LaunchScreen.storyboard in Resources */,
 				ABA6A070222480AD009FFDA7 /* Assets.xcassets in Resources */,
-				ABA6A06E222480AD009FFDA7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +244,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		ABA6A06C222480AD009FFDA7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ABA6A06D222480AD009FFDA7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ABA6A071222480AD009FFDA7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

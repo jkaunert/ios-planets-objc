@@ -13,10 +13,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface JKPlanetController : NSObject
 
-- (id)init;
++ (instancetype)sharedJKPlanetController;
 
 @property (nonatomic, copy)NSArray<JKPlanet *> *planets;
-@property BOOL *shouldShowPluto;
+@property (nonatomic)BOOL *shouldShowPluto;
 
 - (NSArray*)returnPlanetArray;
 

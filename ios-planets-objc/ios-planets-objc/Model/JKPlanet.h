@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, copy)NSString *name;
 @property (nonatomic, copy)NSString *imageName;
-@property (nonatomic)UIImage *image;
+@property (nonatomic, readonly, nullable)UIImage *image;
 
 - (instancetype)initWithPlanet:(NSString *)name
            imageName: (NSString *)imageName;

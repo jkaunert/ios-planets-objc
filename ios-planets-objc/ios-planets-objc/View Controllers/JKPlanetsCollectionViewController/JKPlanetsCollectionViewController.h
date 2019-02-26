@@ -7,12 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JKPlanetController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface JKPlanetsCollectionViewController : UICollectionViewController <UIPopoverPresentationControllerDelegate>
 
-- (IBAction)unwindToPlanetsCollectionViewController:(UIStoryboardSegue *)sender;
+- (IBAction)unwindToJKPlanetsCollectionViewController:(UIStoryboardSegue *)sender;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)planetsDidChange:(NSNotification *)notification;
@@ -21,8 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (UIModalPresentationStyle)adaptivePresentationStyleForPresentationController:(UIPresentationController *)controller;
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id _Nullable)sender;
 - (nonnull instancetype)initWithCollectionViewLayout:(UICollectionViewLayout *)layout;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil;
-- (nullable instancetype)initWithCoder:(NSCoder *)aDecoder;
+
 
 @end
 

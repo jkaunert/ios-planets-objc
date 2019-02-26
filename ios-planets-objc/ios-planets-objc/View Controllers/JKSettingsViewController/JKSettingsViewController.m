@@ -13,6 +13,7 @@
 @end
 
 @implementation JKSettingsViewController
+
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:YES];
 }
@@ -31,5 +32,12 @@
     // Pass the selected object to the new view controller.
 }
 */
-
+- (IBAction)changeShouldShowPluto:(UISwitch *)sender {
+    
+    if ([_shouldShowPlutoSwitch isOn]) {
+        [_shouldShowPlutoSwitch setOn:NO];
+    }else {
+        [_shouldShowPlutoSwitch setOn:YES];
+    }
+}
 @end

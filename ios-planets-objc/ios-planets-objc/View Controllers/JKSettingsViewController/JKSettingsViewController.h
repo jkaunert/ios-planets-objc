@@ -14,7 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)viewWillAppear:(BOOL)animated;
 - (IBAction)changeShouldShowPluto:(UISwitch *)sender;
-@property (nonatomic, weak) IBOutlet UISwitch *shouldShowPlutoSwitch;
+@property (weak, nonatomic) IBOutlet UISwitch *shouldShowPlutoSwitch;
+
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil;
 - (nullable instancetype)initWithCoder:(NSCoder *)aDecoder;
 

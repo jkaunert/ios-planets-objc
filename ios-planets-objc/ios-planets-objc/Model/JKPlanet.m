@@ -13,7 +13,7 @@
 - (instancetype)initWithPlanet:(NSString *)name imageName:(NSString *)imageName {
         self.name = _name;
         self.imageName = _imageName;
-        self.image = [UIImage imageNamed:_imageName];
+        _image = [UIImage imageNamed:_imageName];
         return self;
 }
 @end
